@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)http://127.0.0.1:5500/create%20web%20wireframe/create%20web%20wireframe.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <table border="1" cellspacing="0" cellpadding="0" align="center" width="">
+        <tbody><tr style="height: 15px;">
+            <td width="30"></td>
+            <td width="100" colspan="3"></td>
+            <td width="30"></td>
+        </tr>
+        <tr style="height: 60px;">
+            <td colspan="3"></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr style="height:10px;">
+            <td colspan="5"></td>
+        </tr>
+        <tr style="height: 10px;">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr style="height: 50px;">
+            <td colspan="2"></td>
+            <td colspan="3"></td>
+        </tr>
+        <tr style="height: 15px;">
+            <td colspan="5"></td>
+        </tr>
+            <tr style="height: 20px;">
+                <td width="40"></td>
+                <td width="35"></td>
+                <td width="35"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr style="height: 25px;">
+                <td colspan="5"></td>
+            </tr>
+            <tr style="height: 15px;">
+             </tr><tr colspan="5"></tr>
+            
+            <tr style="height: 35px;">
+                <td></td>
+                <td width="50" colspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr style="height: 40px;">
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+                <td width="40"></td>
+            </tr>
+            <tr style="height: 10px;">
+                <td colspan="2"></td>
+                <td width="40"></td>
+                <td colspan="2"></td>
+            
+        </tr>
+    </tbody></table>
+</header>    
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
