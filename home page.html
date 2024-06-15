@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/home/home.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+<body>
+    <img src="https://logowik.com/content/uploads/images/Omdataentry-black6739.logowik.com.webp" alt="Omdataentry" height="60">
+
+    <a href="http://127.0.0.1:5500/home/home.html">Home</a>
+            <a href="http://127.0.0.1:5500/about/about.html">About Us</a>
+            <a href="http://127.0.0.1:5500/service/service.html">Services</a>
+            <a href="http://127.0.0.1:5500/blog/blog.html">Blog</a>
+            <a href="http://127.0.0.1:5500/Contact/contact.html">Contact us</a>
+    <h1>Welcome to Om Data entry</h1>
+    <center><img src="https://lh3.googleusercontent.com/p/AF1QipNPOsumNDWfAw9hlkIgjczD36YssA4lYfDw3N0i=s1360-w1360-h1020" alt="machine" height="10%" width="30%"></center>
+    <p>Om Data Entry India is a globally recommended data entry service provider company based in India with more than 9+ years of experience. At our company, we provide a comprehensive range of high-quality data entry outsourcing solutions across the world to each and every business segment that need manual data entry. With so many years of experience, we have built and maintained a highly professional skilled, experienced and dedicated team of data entry specialists. As an ISO 9001:2015 certified company, we have been providing reliable, time-bound, and highly accurate data entry services to our customers around the globe. Our highly expert team will get you core competence and allow you to focus on core business operations by leveraging our skilled operators and technology at affordable&nbsp;prices.</p>
+
+    <h2>Process We Follow for Delivering Data Entry&nbsp;Services</h2>
+
+    <p>We provide a free sample of our data entry work for your small data entry project to showcase the quality we promise to deliver. After approval of the project of our sample work, we then collect the main project details with all specifications and requirements. Before we start data entry of your documents with high precision, our experts analyze your project to find the most appropriate method. Our experts perform your data entry work with high accuracy and given file formats to deliver superior quality work with high efficiency. To ensure error-free data entry of your work and to provide promised outsourcing services, we perform a strict quality check for data entry services. Our experts will send the final file of your data entry work within the given timelines and with the required&nbsp;file&nbsp;formats.</p>
+
+
+</body></html>
