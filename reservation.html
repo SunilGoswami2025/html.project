@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>reservation</title>
+</head>
+<body>
+    <div class="navbar-bg-container">
+        <div class="navbar-container">
+            <nav class="navbar">
+                <ul class="nav-items">
+                    <li class="item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="item"><a class="nav-link" href="menu.html">MENU</a></li>
+                    <li class="item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                    <li class="item"><a class="nav-link" href="contactus.html">CONTACT US</a></li>
+                    <li class="item"><a class="nav-link" href="#">NEWS & OFFERS</a></li>
+                    <li class="btn"><a class="btn-nav-link" href="login.html">login / signup</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="r-bg-container">
+        <h1 class="r-title">RESERVATION</h1>
+        <section class="login-bg-container">
+            <div style="height: fit-content;" class="login-container">
+                <div class="mo">
+                    <select class="r-input" required>
+                        <option value="">SELECT NUMBER OF PERSONS</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br> 
+                </div>
+                <div class="mo" style="color: coral;">
+                    <input type="date" class="r-input" required><br>
+                    <input type="time" class="mo-input" placeholder="ZIP CODE" maxlength="6" required> to <input type="time" class="mo-input" placeholder="ZIP CODE" maxlength="6" required>
+                </div>
+                <div class="mo">
+                    <input type="text" class="mo-input" placeholder="Any notes?" maxlength="10" required><br> 
+                </div>
+                <button class="login-btn">RESERVE</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
